@@ -3,7 +3,11 @@
   "pureta": {
     "main": "./plugin.js",
     "dependencies": [
+      "@pureta/db-typeorm",
       "@pureta/pug"
     ]
+  },
+  "dependencies": {
+    "typeorm": "^0.1.19"
   }
 }
