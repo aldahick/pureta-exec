@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "declaration": true,
     "target": "es2017",
     "module": "commonjs",
     "newLine": "lf",
@@ -9,9 +8,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true,
-    "rootDirs": ["./src"],
-    "outDir": "./lib"
+    "sourceMap": true
   },
   "compileOnSave": true,
   "buildOnSave": false,

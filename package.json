@@ -1,0 +1,9 @@
+{
+  "name": "@pureta/exec",
+  "pureta": {
+    "main": "./plugin.js",
+    "dependencies": [
+      "@pureta/pug"
+    ]
+  }
+}
