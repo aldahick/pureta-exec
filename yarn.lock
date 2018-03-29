@@ -75,7 +75,7 @@ chalk@^2.0.1, chalk@^2.3.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-cli-highlight@^1.1.4:
+cli-highlight@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/cli-highlight/-/cli-highlight-1.2.3.tgz#b200f97ed0e43d24633e89de0f489a48bb87d2bf"
   dependencies:
@@ -574,13 +574,13 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-typeorm@^0.1.19:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.1.19.tgz#7a6b43f120f055942799c2af044f1e2f297a7aa4"
+typeorm@0.2.0-alpha.28:
+  version "0.2.0-alpha.28"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.0-alpha.28.tgz#377e5c0778bc84edcb9e2537ec0f48c4653680bc"
   dependencies:
     app-root-path "^2.0.1"
     chalk "^2.0.1"
-    cli-highlight "^1.1.4"
+    cli-highlight "^1.2.3"
     debug "^3.1.0"
     dotenv "^4.0.0"
     glob "^7.1.2"
