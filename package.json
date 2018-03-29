@@ -1,5 +1,11 @@
 {
   "name": "@pureta/exec",
+  "description": "Basic boilerplate (and examples) for initializing a Pureta server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/pureta/example",
+  "repository": "https://github.com/pureta/example",
+  "bugs": "https://github.com/pureta/example/issues",
   "pureta": {
     "main": "./plugin.js",
     "dependencies": [
