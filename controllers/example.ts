@@ -6,6 +6,8 @@ export default class TestController extends pureta.Controller {
     get route() { return "/"; } // handle /*, but not /**/* (e.g., /index but not /foo/index)
 
     async example(@pureta.param.optional secret: string) {
+        this.req.session.counter = (this.req.session.counter || 0) + 1;
+        this.res.locals.counter = this.req.session.counter;
         this.res.locals.secret = secret;
     }
 

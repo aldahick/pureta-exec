@@ -1,5 +1,5 @@
 {
-  "name": "@pureta/exec",
+  "name": "@pureta/example",
   "description": "Basic boilerplate (and examples) for initializing a Pureta server",
   "version": "0.0.1",
   "license": "MIT",
@@ -10,10 +10,14 @@
     "main": "./plugin.js",
     "dependencies": [
       "@pureta/db-typeorm",
-      "@pureta/pug"
+      "@pureta/pug",
+      "@pureta/session-redis"
     ]
   },
   "dependencies": {
     "typeorm": "0.2.0-alpha.28"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.15.8"
   }
 }
